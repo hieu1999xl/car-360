@@ -1,12 +1,12 @@
 const HOTSPOTS_CONFIG = [
   {
     positions: [
-      { imageIndex: 1, xCoord: 50, yCoord: 50 },
-			{ imageIndex: 2, yCoord: 55 },
-			{ imageIndex: 3, yCoord: 60 },
-			{ imageIndex: 4, yCoord: 65 },
-			{ imageIndex: 5, yCoord: 70 },
-			{ imageIndex: 6, yCoord: 75 }
+      { imageIndex: 1, xCoord: 310, yCoord: 300 },
+			{ imageIndex: 2, yCoord: 300, xCoord: 280},
+			{ imageIndex: 3, yCoord: 300, xCoord: 250 },
+			{ imageIndex: 4, yCoord: 300, xCoord: 220 },
+			{ imageIndex: 5, yCoord: 300, xCoord: 190 },
+			{ imageIndex: 6, yCoord: 300, xCoord: 160 }
     ],
     variant: {
       title: "1"
@@ -14,12 +14,12 @@ const HOTSPOTS_CONFIG = [
   },
 	{
     positions: [
-      { imageIndex: 7, xCoord: 75, yCoord: 50 },
-			{ imageIndex: 8, yCoord: 55 },
-			{ imageIndex: 9, yCoord: 60 },
-			{ imageIndex: 10, yCoord: 65 },
-			{ imageIndex: 11, yCoord: 70 },
-			{ imageIndex: 12, yCoord: 75 }
+      { imageIndex: 1, xCoord: 385, yCoord: 325 },
+			{ imageIndex: 2, xCoord: 355, yCoord: 335 },
+			{ imageIndex: 3, xCoord: 325, yCoord: 335 },
+			{ imageIndex: 4, xCoord: 295, yCoord: 335 },
+			{ imageIndex: 5, xCoord: 265, yCoord: 335 },
+			{ imageIndex: 6, xCoord: 235, yCoord: 335 }
     ],
     variant: {
       title: "2"
@@ -27,12 +27,12 @@ const HOTSPOTS_CONFIG = [
   },
 	{
     positions: [
-      { imageIndex: 13, xCoord: 100, yCoord: 50 },
-			{ imageIndex: 14, yCoord: 55 },
-			{ imageIndex: 15, yCoord: 60 },
-			{ imageIndex: 16, yCoord: 65 },
-			{ imageIndex: 17, yCoord: 70 },
-			{ imageIndex: 18, yCoord: 75 }
+      { imageIndex: 1, xCoord: 212, yCoord: 215 },
+			{ imageIndex: 2, yCoord: 215, xCoord: 200},
+			{ imageIndex: 3, yCoord: 215, xCoord: 190 },
+			{ imageIndex: 4, yCoord: 215, xCoord: 185 },
+			{ imageIndex: 5, yCoord: 205, xCoord: 175 },
+			{ imageIndex: 6, yCoord: 205, xCoord: 170 }
     ],
     variant: {
       title: "3"
@@ -40,12 +40,10 @@ const HOTSPOTS_CONFIG = [
   },
 	{
     positions: [
-      { imageIndex: 19, xCoord: 125, yCoord: 50 },
-			{ imageIndex: 20, yCoord: 55 },
-			{ imageIndex: 21, yCoord: 60 },
-			{ imageIndex: 22, yCoord: 65 },
-			{ imageIndex: 23, yCoord: 70 },
-			{ imageIndex: 24, yCoord: 75 }
+      { imageIndex: 7, xCoord: 210, yCoord: 255 },
+			{ imageIndex: 8,  xCoord: 180, yCoord: 255 },
+			{ imageIndex: 9,  xCoord: 150, yCoord: 255 },
+			{ imageIndex: 10,  xCoord: 150, yCoord: 235  },
     ],
     variant: {
       title: "4"
@@ -53,12 +51,12 @@ const HOTSPOTS_CONFIG = [
   },
 	{
     positions: [
-      { imageIndex: 25, xCoord: 150, yCoord: 50 },
-			{ imageIndex: 26, yCoord: 55 },
-			{ imageIndex: 27, yCoord: 60 },
-			{ imageIndex: 28, yCoord: 65 },
-			{ imageIndex: 29, yCoord: 70 },
-			{ imageIndex: 30, yCoord: 75 }
+      { imageIndex: 9, xCoord: 185, yCoord: 345 },
+			{ imageIndex: 10,  xCoord: 155, yCoord: 345 },
+			{ imageIndex: 11,  xCoord: 130, yCoord: 335 },
+			{ imageIndex: 12,  xCoord: 110, yCoord: 325 },
+			{ imageIndex: 13,  xCoord: 90, yCoord: 325 },
+
     ],
     variant: {
       title: "5"
@@ -66,17 +64,133 @@ const HOTSPOTS_CONFIG = [
   },
 	{
     positions: [
-      { imageIndex: 31, xCoord: 175, yCoord: 50 },
-			{ imageIndex: 32, yCoord: 55 },
-			{ imageIndex: 33, yCoord: 60 },
-			{ imageIndex: 34, yCoord: 65 },
-			{ imageIndex: 35, yCoord: 70 },
-			{ imageIndex: 36, yCoord: 75 }
+      { imageIndex: 13, xCoord: 175, yCoord: 385 },
+			{ imageIndex: 14,  xCoord: 155, yCoord: 380 },
+			{ imageIndex: 15,  xCoord: 145, yCoord: 375 },
+			{ imageIndex: 16,  xCoord: 135, yCoord: 365 },
+			{ imageIndex: 17,  xCoord: 125, yCoord: 355 },
+			{ imageIndex: 18,  xCoord: 115, yCoord: 345 },
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
     ],
     variant: {
       title: "6"
     }
-  }
+  },
+  {
+    positions: [
+      { imageIndex: 13, xCoord: 370, yCoord: 320 },
+			{ imageIndex: 14,  xCoord: 370, yCoord: 330 },
+			{ imageIndex: 15,  xCoord: 370, yCoord: 335 },
+			{ imageIndex: 16,  xCoord: 365, yCoord: 340 },
+			{ imageIndex: 17,  xCoord: 365, yCoord: 345 },
+			{ imageIndex: 18,  xCoord: 355, yCoord: 355 },
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
+    ],
+    variant: {
+      title: "7"
+    }
+  },
+  {
+    positions: [
+      { imageIndex: 13, xCoord: 290, yCoord: 320 },
+			{ imageIndex: 14,  xCoord: 285, yCoord: 320 },
+			{ imageIndex: 15,  xCoord: 280, yCoord: 320 },
+			{ imageIndex: 16,  xCoord: 265, yCoord: 320 },
+			{ imageIndex: 17,  xCoord: 260, yCoord: 325 },
+			{ imageIndex: 18,  xCoord: 250, yCoord: 325 },
+			{ imageIndex: 19,  xCoord: 240, yCoord: 325 },
+
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
+    ],
+    variant: {
+      title: "8"
+    }
+  },
+  {
+    positions: [
+      { imageIndex: 13, xCoord: 295, yCoord: 270 },
+			{ imageIndex: 14,  xCoord: 288, yCoord: 270 },
+			{ imageIndex: 15,  xCoord: 280, yCoord: 275 },
+			{ imageIndex: 16,  xCoord: 270, yCoord: 265 },
+			{ imageIndex: 17,  xCoord: 263, yCoord: 265 },
+			{ imageIndex: 18,  xCoord: 253, yCoord: 265 },
+			{ imageIndex: 19,  xCoord: 245, yCoord: 265 },
+
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
+    ],
+    variant: {
+      title: "9"
+    }
+  },
+  ,
+  {
+    positions: [
+      { imageIndex: 13, xCoord: 345, yCoord: 270 },
+			{ imageIndex: 14,  xCoord: 345, yCoord: 270 },
+			{ imageIndex: 15,  xCoord: 340, yCoord: 275 },
+			{ imageIndex: 16,  xCoord: 340, yCoord: 265 },
+			{ imageIndex: 17,  xCoord: 335, yCoord: 265 },
+			{ imageIndex: 18,  xCoord: 328, yCoord: 265 },
+			{ imageIndex: 19,  xCoord: 318, yCoord: 265 },
+
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
+    ],
+    variant: {
+      title: "10"
+    }
+  },
+  {
+    positions: [
+      { imageIndex: 13, xCoord: 315, yCoord: 180 },
+			{ imageIndex: 14,  xCoord: 310, yCoord: 180 },
+			{ imageIndex: 15,  xCoord: 310, yCoord: 180 },
+			{ imageIndex: 16,  xCoord: 300, yCoord: 180 },
+			{ imageIndex: 17,  xCoord: 300, yCoord: 180 },
+			{ imageIndex: 18,  xCoord: 290, yCoord: 180 },
+			{ imageIndex: 19,  xCoord: 280, yCoord: 190 },
+
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
+    ],
+    variant: {
+      title: "11"
+    }
+  },{
+    positions: [
+      { imageIndex: 13, xCoord: 395, yCoord: 210 },
+			{ imageIndex: 14,  xCoord: 405, yCoord: 210 },
+			{ imageIndex: 15,  xCoord: 410, yCoord: 220 },
+			{ imageIndex: 16,  xCoord: 415, yCoord: 220 },
+			{ imageIndex: 17,  xCoord: 417, yCoord: 220 },
+			{ imageIndex: 18,  xCoord: 415, yCoord: 230 },
+			{ imageIndex: 19,  xCoord: 415, yCoord: 235 },
+
+			// { imageIndex: 19,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 20,  xCoord: 120, yCoord: 355 },
+			// { imageIndex: 21,  xCoord: 120, yCoord: 355 },
+
+    ],
+    variant: {
+      title: "12"
+    }
+  },
 ];
 
 window.CI360.addHotspots("hotspot-example", HOTSPOTS_CONFIG);
